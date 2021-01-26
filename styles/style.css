@@ -261,6 +261,7 @@
   min-height: 350px;
   box-sizing: border-box;
   background-image: url('../images/kaufman-triangle.svg');
+  background-size: contain;
 }
 
 .footer {

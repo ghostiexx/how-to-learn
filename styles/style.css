@@ -130,7 +130,7 @@
 .digits {
   width: 1100px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding-bottom: 100px;
 }
 
 .section-title {
@@ -140,6 +140,8 @@
   line-height: 1.15;
   width: 60%;
   margin: 0 auto 20px;
+  position: relative;
+  z-index: 2;
 }
 
 .section-title_theme_dark {
@@ -153,6 +155,8 @@
   font-weight: normal;
   width: 60%;
   margin: 0 auto;
+  position: relative;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
@@ -211,7 +215,7 @@
   background-image: url('../images/feynman.png');
   background-position: left bottom;
   background-repeat: no-repeat;
-  height: 790px;
+  min-height: 790px;
   position: relative;
 }
 

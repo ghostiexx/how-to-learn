@@ -1,0 +1,12 @@
+.header__main-illustration {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 766px;
+  z-index: 2;
+}
+
+.header__main-illustration img {
+  width: 100%;
+}
